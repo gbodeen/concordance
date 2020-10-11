@@ -1,0 +1,23 @@
+{
+  "name": "concordance",
+  "version": "0.1.0",
+  "description": "find common ground together",
+  "main": "index.js",
+  "keywords": [
+    "argument",
+    "debate",
+    "agreement",
+    "persuasion",
+    "communication"
+  ],
+  "homepage": "https://github.com/gbodeen/concordance/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gbodeen/concordance"
+  },
+  "bugs": {
+    "url": "https://github.com/gbodeen/concordance/issues"
+  },
+  "author": "Gabriel Bodeen",
+  "license": "AGPL-3.0-or-later"
+}
