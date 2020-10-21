@@ -1,7 +1,3 @@
-<script>
-  import successkid from "images/successkid.jpg";
-</script>
-
 <style>
   h1,
   figure,
@@ -39,23 +35,19 @@
 </style>
 
 <svelte:head>
-  <title>Sapper project template</title>
+  <title>Concordance</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>Concordance</h1>
 
 <figure>
-  <img alt="Success Kid" src={successkid} />
-  <figcaption>Have fun with Sapper!</figcaption>
+  <img
+    alt="a large bunch of grapes held in both hands"
+    src="grapes-to-share.jpg" />
+  <figcaption>You have so much to share</figcaption>
 </figure>
 
 <p>
   <strong>Try editing this file (src/routes/index.svelte) to test live
     reloading.</strong>
-</p>
-
-<p>Truly, I have verified it with a minimal edit.</p>
-<p>
-  Next step: What about TypeScript, and a
-  <a href="typescript">novel route</a>?
 </p>
