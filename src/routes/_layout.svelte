@@ -4,19 +4,22 @@
   export let segment: string;
 </script>
 
-<!--<style>
-  main {
-    position: relative;
-    max-width: 56em;
-    background-color: white;
-    padding: 2em;
-    margin: 0 auto;
-    box-sizing: border-box;
+<style>
+  .innerbody {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
   }
-</style>-->
+  main {
+    flex-grow: 1;
+  }
+</style>
 
-<Nav {segment} />
-
-<main>
-  <slot />
-</main>
+<div class="innerbody">
+  <Nav {segment} />
+  <main>
+    <slot />
+  </main>
+</div>

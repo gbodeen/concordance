@@ -8,8 +8,11 @@
 
 <style>
   .concords {
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+    box-sizing: border-box;
     padding: 20px;
-    font-size: medium;
   }
   ol {
     margin: 0;
@@ -20,6 +23,7 @@
     padding: 15px;
     border: 1px dotted gray;
     border-radius: 15px;
+    font-size: medium;
   }
 </style>
 
